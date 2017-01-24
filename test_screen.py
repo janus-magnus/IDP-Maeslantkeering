@@ -16,7 +16,7 @@ class ScreenFrame():
         self.display_label_top = Label(text='place holder',
                                    fg='white',bg='#163c76',bd=1, relief=GROOVE, font='bold')
         self.display_label_top.grid(row=0,columnspan=2, sticky=W+E+N+S)
-
+        self.get_weather()
 
         self.root.mainloop()
 
@@ -35,8 +35,7 @@ class ScreenFrame():
         text_date = datetime.strftime(weather_ob.get_reference_time(timeformat='date'), "%a %e %b om %H:%M:%S")
 
         #Voeg de labels van het weerbericht toe met de info.
-        self.weather_label = Label(text="Het weer in Utrecht\n"+text_date, fg='#163c76',bg='#EEEEEE',
-                                       bd=1, font=('normal', '14'))
+        self.weather_label = Label(text='API info:\n'+text_date, fg='#163c76',bg='#EEEEEE', bd=1, font=('normal', '14'))
         self.weather_label.grid(row=4, columnspan=2, sticky=E+W+N+S)
 
         self.weather_label = Label(text=status+"\t\t\tLuchtvochtigheid: "+str(humidity)+"%\nTemperatuur: "+str(temp['temp'])+"°C\tWindsnelheid: "+str(wind['speed'])+"km/u"
