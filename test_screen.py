@@ -26,7 +26,7 @@ class ScreenFrame():
         weather_ob = ap.weather() #roep het weer API aan
 
        # dit zijn de functies die op de het weather_ob kan uitvoeren
-        wind = weather_ob.get_wind()  # haalt windgegevens op
+        wind = weather_ob.get_wind()   # haalt windgegevens op
         humidity = weather_ob.get_humidity()  # haalt luchtvochtingheid op
         temp = weather_ob.get_temperature(unit='celsius') # haalt de temp op
         status = weather_ob.get_status() # haalt weer op e.g. rain, sun, cloudy
