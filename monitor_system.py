@@ -1,6 +1,7 @@
 import Adafruit_DHT
 import RPi.GPIO as GPIO
 import time
+import gate_control_functions as gc
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(36, GPIO.IN)# touch sensor input
@@ -28,6 +29,4 @@ while True:#placeholder loop moet werkend worden gemaakt
         tempWarning=True
         continue
     if touchWarning == True and tempWarning== True and humidityWarning == True:
-        GPIO.output(12, 1)
-        GPIO.output(11, 0)
-        time.sleep(3)
+        gc.open_gate()
