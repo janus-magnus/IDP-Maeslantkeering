@@ -1,18 +1,14 @@
 import Adafruit_DHT
 import RPi.GPIO as GPIO
 
-
-# de sensor data moet constant ge-update worden
-
-
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(36, GPIO.IN)# touch sensor input
-
+humidity = 0
+temperature = 0
 
 def get_rawTempHum():
     global humidity, temperature
     humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, 4)  # temp en hum sensor input
-
 
 def get_humidity():
     global humidity
@@ -29,7 +25,6 @@ def get_temp():
 def get_touch():
     return GPIO.input(36)
 
-
-print(''+get_humidity() +' + ' + get_temp())
-print(''+get_humidity() +' + ' + get_temp())
-print(''+get_humidity() +' + ' + get_temp())
+#get_rawTempHum()
+#print 'temp = {0:0.1f}*C luchtvochtigheid = {1:0.1f}%'.format(temperature, humidity)
+#print(''+str(get_humidity()) +' + ' + str(get_temp()))
