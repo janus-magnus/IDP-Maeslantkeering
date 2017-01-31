@@ -53,3 +53,5 @@ def get_threat_level():
         return 'Rood'
     else:
         return 'Groen'
+
+print(get_threat_level())
