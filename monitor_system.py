@@ -1,15 +1,5 @@
-import time
-import gate_control_functions as gc
 import API_Controler as APIC
 import sensor_controler as sc
-
-'''
-touchWarning = False
-tempWarning = False
-humidityWarning = False
-windSpeedWarning = False
-rainWarning = False
-'''
 
 #treshholds Oranje
 tempTresholdO = 25
@@ -36,9 +26,9 @@ def define_threat_level():
         threatCount += 1
     if sc.get_temp() >= tempTresholdR:
         threatCount += 1
-    if sc.get_wind() >= windSpeedTresholdO:
+    if APIC.get_wind() >= windSpeedTresholdO:
         threatCount += 1
-    if sc.get_wind() >= windSpeedTresholdR:
+    if APIC.get_wind() >= windSpeedTresholdR:
         threatCount += 1
     #regen moet er nog bij maar het werkt nog niet helemaal
 
