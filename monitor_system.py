@@ -3,14 +3,6 @@ import gate_control_functions as gc
 import API_Controler as APIC
 import sensor_controler as sc
 
-'''
-touchWarning = False
-tempWarning = False
-humidityWarning = False
-windSpeedWarning = False
-rainWarning = False
-'''
-
 #treshholds Oranje
 tempTresholdO = 25
 humTresholdO = 35
