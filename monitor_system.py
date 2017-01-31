@@ -43,4 +43,13 @@ def define_threat_level():
     #regen moet er nog bij maar het werkt nog niet helemaal
 
     #bij threatcount>4 oranje bij >6 rood, dit gebeurt in de screen clas
+
     return threatCount
+
+def get_threat_level():
+    if define_threat_level()>=4:
+        return 'Oranje'
+    if define_threat_level()>=6:
+        return 'Rood'
+    else:
+        return 'Groen'
