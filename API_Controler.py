@@ -19,4 +19,4 @@ def get_wind():
     wind = w.get_wind()
     return wind['speed']
 
-print(get_rain())
+

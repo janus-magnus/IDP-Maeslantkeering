@@ -2,6 +2,7 @@ import tkinter as tk
 from Pass import Pass
 from PassReset import PassReset
 from Home import Home
+from Manual import Manual
 
 
 class Maeslantkeering(tk.Tk):
@@ -20,7 +21,7 @@ class Maeslantkeering(tk.Tk):
         self.frames = {}
 
         # Initialiseer alle Frames, hierdoor kunnen we er later door heen bladeren met de 'show_frame' functie
-        for F in (Pass, PassReset, Home):
+        for F in (Pass, PassReset, Home, Manual):
             page_name = F.__name__
             frame = F(parent=container, controller=self)
             self.frames[page_name] = frame
@@ -36,7 +37,7 @@ class Maeslantkeering(tk.Tk):
         # Hier word de grote van het venster aangegeven, zowel als de naam en dat het niet verstelbaar mag zijn.
         self.geometry("265x410+1114+473")
         self.title("Maeslantkeering")
-        self.resizable(0, 0)
+        #self.resizable(0, 0)
         self.configure(background="#6d8bf3")
 
     passkey = "1234"
