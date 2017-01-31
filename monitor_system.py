@@ -41,10 +41,9 @@ def define_threat_level():
     if sc.get_wind() >= windSpeedTresholdR:
         threatCount += 1
     #regen moet er nog bij maar het werkt nog niet helemaal
-
     #bij threatcount>4 oranje bij >6 rood, dit gebeurt in de screen clas
-
     return threatCount
+
 
 def get_threat_level():
     if define_threat_level()>=4:
@@ -53,5 +52,3 @@ def get_threat_level():
         return 'Rood'
     else:
         return 'Groen'
-
-print(get_threat_level())
