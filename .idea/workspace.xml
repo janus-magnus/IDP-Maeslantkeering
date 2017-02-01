@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ce7a63-f163-4c9c-b330-7d314b4bbb67" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rules.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IDP-Maeslantkeering.iml" afterPath="$PROJECT_DIR$/.idea/IDP-Maeslantkeering.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor_test_set/emailNotification.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API_Controler.py" afterPath="$PROJECT_DIR$/API_Controler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" afterPath="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor_system.py" afterPath="$PROJECT_DIR$/monitor_system.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensor_controler.py" afterPath="$PROJECT_DIR$/sensor_controler.py" />
     </list>
     <ignored path="IDP-Maeslantkeering.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,15 +20,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/maeslantkeering-final$Maeslantkeering.coverage" NAME="Maeslantkeering Coverage Results" MODIFIED="1485946451518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface" />
-    <SUITE FILE_PATH="coverage/maeslantkeering-final$Maeslantkeering__1_.coverage" NAME="Maeslantkeering (1) Coverage Results" MODIFIED="1485946778219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maeslantkeering-Interface" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$test_screen.coverage" NAME="test_screen Coverage Results" MODIFIED="1485253041743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$sensor_controler.coverage" NAME="sensor_controler Coverage Results" MODIFIED="1485596713705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$screen.coverage" NAME="screen Coverage Results" MODIFIED="1485868862823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$test.coverage" NAME="test Coverage Results" MODIFIED="1485861900446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sensor_test_set" />
+    <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$Pass.coverage" NAME="Pass Coverage Results" MODIFIED="1485806859422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface" />
+    <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$emailNotification.coverage" NAME="emailNotification Coverage Results" MODIFIED="1485977547181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sensor_test_set" />
+    <SUITE FILE_PATH="coverage/maeslantkeering-final$Maeslantkeering__1_.coverage" NAME="Maeslantkeering (1) Coverage Results" MODIFIED="1485946778219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maeslantkeering-Interface" />
+    <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$screen.coverage" NAME="screen Coverage Results" MODIFIED="1485868862823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$API_Controler.coverage" NAME="API_Controler Coverage Results" MODIFIED="1485968700013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$Maeslantkeering.coverage" NAME="Maeslantkeering Coverage Results" MODIFIED="1485962258661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$Status.coverage" NAME="Status Coverage Results" MODIFIED="1485865338877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface" />
-    <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$Pass.coverage" NAME="Pass Coverage Results" MODIFIED="1485806859422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$Maeslantkeering__1_.coverage" NAME="Maeslantkeering (1) Coverage Results" MODIFIED="1485968111884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maeslantkeering-Interface" />
     <SUITE FILE_PATH="coverage/IDP-Maeslantkeering$monitor_system.coverage" NAME="monitor_system Coverage Results" MODIFIED="1485969389776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -89,14 +84,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monitor_system.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="monitor_system.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monitor_system.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="663">
               <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emailNotification.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sensor_test_set/emailNotification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,6 +185,7 @@
         <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" />
         <option value="$PROJECT_DIR$/API_Controler.py" />
         <option value="$PROJECT_DIR$/monitor_system.py" />
+        <option value="$PROJECT_DIR$/sensor_test_set/emailNotification.py" />
       </list>
     </option>
   </component>
@@ -248,6 +254,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_test_set" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IDP-Maeslantkeering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IDP-Maeslantkeering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Maeslantkeering-Interface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -271,7 +291,7 @@
       <recent name="C:\Users\Ykorr\PycharmProjects\IDP-Maeslantkeering\sensor_test_set" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.monitor_system">
+  <component name="RunManager" selected="Python.emailNotification">
     <configuration default="false" name="Maeslantkeering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,24 +306,6 @@
       <module name="IDP-Maeslantkeering" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface_final/Maeslantkeering-Interface/Maeslantkeering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="screen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IDP-Maeslantkeering" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Ykorr\PycharmProjects\IDP-Maeslantkeering\sensor_test_set\screen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -358,6 +360,24 @@
       <module name="IDP-Maeslantkeering" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/monitor_system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="emailNotification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sensor_test_set" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IDP-Maeslantkeering" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sensor_test_set/emailNotification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -572,18 +592,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Maeslantkeering" />
-      <item index="1" class="java.lang.String" itemvalue="Python.screen" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Maeslantkeering (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.API_Controler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.monitor_system" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Maeslantkeering (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.API_Controler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.monitor_system" />
+      <item index="4" class="java.lang.String" itemvalue="Python.emailNotification" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.monitor_system" />
-        <item index="1" class="java.lang.String" itemvalue="Python.API_Controler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Maeslantkeering (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Maeslantkeering" />
-        <item index="4" class="java.lang.String" itemvalue="Python.screen" />
+        <item index="0" class="java.lang.String" itemvalue="Python.emailNotification" />
+        <item index="1" class="java.lang.String" itemvalue="Python.monitor_system" />
+        <item index="2" class="java.lang.String" itemvalue="Python.API_Controler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Maeslantkeering (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Maeslantkeering" />
       </list>
     </recent_temporary>
   </component>
@@ -657,13 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sensor_test_set/screen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="150" selection-start-line="40" selection-start-column="150" selection-end-line="40" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/API_Controler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -933,11 +946,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/monitor_system.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="663">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensor_test_set/emailNotification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
