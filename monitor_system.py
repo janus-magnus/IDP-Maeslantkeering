@@ -14,7 +14,6 @@ windSpeedTresholdR = 30
 
 def define_threat_level():
     threatCount = 0
-
     if sc.get_touch()==1:
         threatCount+=2
     if sc.get_humidity() >= humTresholdO:
