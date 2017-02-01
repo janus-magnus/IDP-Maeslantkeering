@@ -1,5 +1,6 @@
 import API_Controler as apc
 import sensor_controler as sc
+from emailNotification import send_notification
 
 #treshholds Oranje
 tempTresholdO = 15
@@ -31,9 +32,12 @@ def define_threat_level():
     return threatCount
 
 def get_threat_level():
+    tl = ''
     if define_threat_level()>=4:
-        return 'Oranje'
+        tl = 'Oranje'
     if define_threat_level()>=6:
-        return 'Rood'
+        tl = 'Rood'
     else:
-        return 'Groen'
+        tl = 'Groen'
+    send_notification(tl)
+    return tl
