@@ -2,10 +2,12 @@ import tkinter as tk
 from tkinter import *
 
 class Home(tk.Frame):
+
+    controller = None
+
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        controller.geometry().format(600, 449)
 
         self._bgcolor = '#d9d9d9'  # X11 color: 'gray85'
         self._fgcolor = '#000000'  # X11 color: 'black'
@@ -52,7 +54,6 @@ class Home(tk.Frame):
         self.manualButton.configure(highlightcolor="black")
         self.manualButton.configure(pady="0")
         self.manualButton.configure(text='''Manual''')
-        self.manualButton.configure(command=lambda: self.toManual())
 
         self.autoButton = Button(self)
         self.autoButton.place(relx=0.08, rely=0.62, height=74, width=217)
@@ -76,7 +77,6 @@ class Home(tk.Frame):
         self.changeButton.configure(highlightbackground="#d9d9d9")
         self.changeButton.configure(highlightcolor="black")
         self.changeButton.configure(pady="0")
-        self.changeButton.configure(text='''Verander passkey''')
+        self.changeButton.configure(text='''Verander code''')
+        self.changeButton.configure(command=lambda: controller.toPassReset())
 
-    def toManual(self):
-       self.controller.show_frame("Manual")

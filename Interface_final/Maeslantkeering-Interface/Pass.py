@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import *
+import hashlib
 
 class Pass(tk.Frame):
     controller = None
@@ -191,5 +192,7 @@ class Pass(tk.Frame):
             digitString = digitString + digit
         self.digitArray.clear()
 
+        digitString = hashlib.md5(str.encode(digitString)).hexdigest()
+
         if (self.controller.passkey == digitString):
-            self.controller.show_frame("Home")
+            self.controller.toHome()
