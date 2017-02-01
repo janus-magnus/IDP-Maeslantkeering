@@ -5,7 +5,6 @@ from Home import Home
 from Manual import Manual
 from ErrorPass import ErrorPass
 
-
 class Maeslantkeering(tk.Tk):
     # Deze class is de kern van het programma. Dit is wat standaard Tkinter code om te zorgen dat we meerde frames kunnen ondersteuen.
     def __init__(self, *args, **kwargs):
@@ -65,10 +64,10 @@ class Maeslantkeering(tk.Tk):
         self.maxsize(width=666, height=666)
         self.show_frame("Manual")
 
-    def toPasserror(self):
+    def toErrorPass(self):
         self.minsize(width=265, height=410)
         self.maxsize(width=265, height=410)
-        self.show_frame("Errorpass")
+        self.show_frame("ErrorPass")
 
 app = Maeslantkeering()
 app.mainloop()

@@ -188,10 +188,11 @@ class ErrorPass(tk.Frame):
 
     def checkDigits(self):
         digitString = ''
-        for x in range(0, 4):
-            digit = self.digitArray[x]
-            digitString = digitString + digit
-        self.digitArray.clear()
+        if (len(self.digitArray) != 0):
+            for x in range(0, len(self.digitArray)):
+                digit = self.digitArray[x]
+                digitString = digitString + digit
+            self.digitArray.clear()
 
         digitString = hashlib.md5(str.encode(digitString)).hexdigest()
 

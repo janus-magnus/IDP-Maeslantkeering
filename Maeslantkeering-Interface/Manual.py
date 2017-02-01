@@ -66,7 +66,7 @@ class Manual(tk.Frame):
         self.weatherLabel.configure(font=self.tahoma)
         self.weatherLabel.configure(foreground="#000000")
         self.weatherLabel.configure(text=status + "\t\t\tLuchtvochtigheid: " + str(humidity) + "%\nTemperatuur: " + str(
-            temp['temp']) + "°C\tWindsnelheid: " + str(wind['speed']) + "km/u" + "\n Waterhoogte: " + str(waterHoogte))
+            temp) + "°C\tWindsnelheid: " + str(wind['speed']) + "km/u" + "\n Waterhoogte: " + str(waterHoogte))
         self.weatherLabel.configure(width=284)
 
 
