@@ -26,6 +26,3 @@ def get_touch():
     pass
     # return GPIO.input(36)
 
-#get_rawTempHum()
-#print 'temp = {0:0.1f}*C luchtvochtigheid = {1:0.1f}%'.format(temperature, humidity)
-#print(''+str(get_humidity()) +' + ' + str(get_temp()))

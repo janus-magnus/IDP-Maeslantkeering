@@ -1,4 +1,3 @@
-# alle GPIO inputs en dergelijk staan in comments omdat dit niet op de pi geschreven is
 import tkinter as tk
 from tkinter import *
 #import gate_control_functions as gcf
@@ -57,7 +56,7 @@ class Manual(tk.Frame):
         self.threatLabel.configure(width=284)
 
         self.weatherLabel = Label(self)
-        self.weatherLabel.place(relx=0.27, rely=0.15, height=61, width=284)
+        self.weatherLabel.place(relx=0.27, rely=0.15, height=101, width=284)
         self.weatherLabel.configure(background="#a8b8ee")
         self.weatherLabel.configure(cursor="X_cursor")
         self.weatherLabel.configure(disabledforeground="#a3a3a3")
@@ -65,13 +64,12 @@ class Manual(tk.Frame):
                  "-underline 0 -overstrike 0"
         self.weatherLabel.configure(font=self.tahoma)
         self.weatherLabel.configure(foreground="#000000")
-        self.weatherLabel.configure(text=status + "\t\t\tLuchtvochtigheid: " + str(humidity) + "%\nTemperatuur: " + str(
-            temp) + "°C\tWindsnelheid: " + str(wind['speed']) + "km/u" + "\n Waterhoogte: " + str(waterHoogte))
+        self.weatherLabel.configure(text=status + "\nLuchtvochtigheid: " + str(humidity) + "%\nTemperatuur: " + str(
+            temp) + "C\nWindsnelheid: " + str(wind['speed']) + "km/u" + "\n Waterhoogte: " + str(waterHoogte))
         self.weatherLabel.configure(width=284)
 
-
         self.openButton = Button(self)
-        self.openButton.place(relx=0.08, rely=0.62, height=74, width=217)
+        self.openButton.place(relx=0.2, rely=0.62, height=54, width=117)
         self.openButton.configure(activebackground="#d9d9d9")
         self.openButton.configure(activeforeground="#000000")
         self.openButton.configure(background="#d9d9d9")
@@ -84,7 +82,7 @@ class Manual(tk.Frame):
         self.openButton.configure(command=lambda: self.open_gate())
 
         self.closeButton = Button(self)
-        self.closeButton.place(relx=0.55, rely=0.62, height=74, width=217)
+        self.closeButton.place(relx=0.4, rely=0.62, height=54, width=117)
         self.closeButton.configure(activebackground="#d9d9d9")
         self.closeButton.configure(activeforeground="#000000")
         self.closeButton.configure(background="#d9d9d9")
@@ -96,6 +94,18 @@ class Manual(tk.Frame):
         self.closeButton.configure(text='''Sluis Openen''')
         self.closeButton.configure(command=lambda: self.close_gate())
 
+        self.homeButton = Button(self)
+        self.homeButton.place(relx=0.6, rely=0.62, height=54, width=117)
+        self.homeButton.configure(activebackground="#d9d9d9")
+        self.homeButton.configure(activeforeground="#000000")
+        self.homeButton.configure(background="#d9d9d9")
+        self.homeButton.configure(disabledforeground="#a3a3a3")
+        self.homeButton.configure(foreground="#000000")
+        self.homeButton.configure(highlightbackground="#d9d9d9")
+        self.homeButton.configure(highlightcolor="black")
+        self.homeButton.configure(pady="0")
+        self.homeButton.configure(text='''Home''')
+        self.homeButton.configure(command=lambda: controller.toHome())
 
     def open_gate(self):
         #gcf.open_gate()

@@ -1,19 +1,15 @@
-import time
-import gate_control_functions as gc
-import API_Controler as APIC
+import API_Controler as apc
 import sensor_controler as sc
 
 #treshholds Oranje
-tempTresholdO = 25
+tempTresholdO = 15
 humTresholdO = 35
-windSpeedTresholdO = 30
-rainTresholdO = 5
+windSpeedTresholdO = 20
 
 #thresholds rood
-tempTresholdR = 30
+tempTresholdR = 5
 humTresholdR = 50
-windSpeedTresholdR = 50
-rainTresholdR = 10
+windSpeedTresholdR = 30
 
 def define_threat_level():
     threatCount = 0
@@ -24,18 +20,15 @@ def define_threat_level():
         threatCount+=1
     if sc.get_humidity() >= humTresholdR:
         threatCount+=1
-    if sc.get_temp() >= tempTresholdO:
+    if sc.get_temp() <= tempTresholdO:
         threatCount += 1
-    if sc.get_temp() >= tempTresholdR:
+    if sc.get_temp() <= tempTresholdR:
         threatCount += 1
-    if sc.get_wind() >= windSpeedTresholdO:
+    if apc.get_wind() >= windSpeedTresholdO:
         threatCount += 1
-    if sc.get_wind() >= windSpeedTresholdR:
+    if apc.get_wind() >= windSpeedTresholdR:
         threatCount += 1
-    #regen moet er nog bij maar het werkt nog niet helemaal
-    #bij threatcount>4 oranje bij >6 rood, dit gebeurt in de screen clas
     return threatCount
-
 
 def get_threat_level():
     if define_threat_level()>=4:

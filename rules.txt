@@ -1,7 +1,0 @@
-het monitor systeem vergelijkt de sensor input met gestelde tresholds
-er zijn twee treshholds levels een voor code oranje en een voor code rood(dit moet nog uitgewrkt worden)
-bij code rood wordt de user gepromt om een beslissing te maaken voor het sluiten van de sluis
-wordt er niet op de promt gereageerd binnen een bepaalde tijd dan sluit het automatische
-
-er moet een guard komen zodat de sluis niet direct geopend kan worden naar het sluiten en vice versa
-
