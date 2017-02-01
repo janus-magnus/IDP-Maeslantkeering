@@ -54,6 +54,7 @@ class Home(tk.Frame):
         self.manualButton.configure(highlightcolor="black")
         self.manualButton.configure(pady="0")
         self.manualButton.configure(text='''Manual''')
+        self.manualButton.configure(command=lambda: controller.toManual())
 
         self.autoButton = Button(self)
         self.autoButton.place(relx=0.08, rely=0.62, height=74, width=217)

@@ -30,7 +30,8 @@ class Pass(tk.Frame):
         self.Label1.configure(disabledforeground="#a3a3a3")
         self.Label1.configure(font=self.font3)
         self.Label1.configure(foreground="#000000")
-        self.Label1.configure(text='''Welkom, voer pincode in S.V.P.''')
+        self.Label1.configure(text='''Passkey fout, probeer het opnieuw.''')
+        self.Label1.configure(fg="red")
         self.Label1.configure(width=264)
 
 
@@ -196,6 +197,3 @@ class Pass(tk.Frame):
 
         if (self.controller.passkey == digitString):
             self.controller.toHome()
-
-        else:
-            self.controller.toErrorpass()

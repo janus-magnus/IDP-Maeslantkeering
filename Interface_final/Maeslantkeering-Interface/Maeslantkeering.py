@@ -2,6 +2,8 @@ import tkinter as tk
 from Pass import Pass
 from PassReset import PassReset
 from Home import Home
+from Manual import Manual
+from Errorpass import Errorpass
 
 
 class Maeslantkeering(tk.Tk):
@@ -19,7 +21,7 @@ class Maeslantkeering(tk.Tk):
         self.frames = {}
 
         # Initialiseer alle Frames, hierdoor kunnen we er later door heen bladeren met de 'show_frame' functie
-        for F in (Pass, PassReset, Home):
+        for F in (Pass, PassReset, Home, Manual, Errorpass):
             page_name = F.__name__
             frame = F(parent=container, controller=self)
             self.frames[page_name] = frame
@@ -48,9 +50,6 @@ class Maeslantkeering(tk.Tk):
         frame = self.frames[cont]
         frame.tkraise()
 
-    def setStation(self, stationNaam):
-        self.station = stationNaam
-
     def toHome(self):
         self.minsize(width=666, height=666)
         self.maxsize(width=666, height=666)
@@ -60,6 +59,16 @@ class Maeslantkeering(tk.Tk):
         self.minsize(width=265, height=410)
         self.maxsize(width=265, height=410)
         self.show_frame("PassReset")
+
+    def toManual(self):
+        self.minsize(width=666, height=666)
+        self.maxsize(width=666, height=666)
+        self.show_frame("Manual")
+
+    def toPasserror(self):
+        self.minsize(width=265, height=410)
+        self.maxsize(width=265, height=410)
+        self.show_frame("Errorpass")
 
 app = Maeslantkeering()
 app.mainloop()
