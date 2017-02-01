@@ -4,6 +4,7 @@ from tkinter import *
 #import gate_control_functions as gcf
 import API_Controler as ac
 from datetime import datetime
+import sensor_controler as sc
 #from monitor_system import get_threat_level
 
 class Manual(tk.Frame):
@@ -22,8 +23,11 @@ class Manual(tk.Frame):
 
         weather_ob = ac.weather()  # roep het weer API aan
         wind = weather_ob.get_wind()  # haalt windgegevens op
-        humidity = weather_ob.get_humidity()  # haalt luchtvochtingheid op
-        temp = weather_ob.get_temperature(unit='celsius')  # haalt de temp op
+        #humidity = weather_ob.get_humidity()  # haalt luchtvochtingheid op
+        #temp = weather_ob.get_temperature(unit='celsius')  # haalt de temp op
+        humidity = sc.get_humidity()
+        temp = sc.get_temp()
+        waterHoogte = sc.get_touch()
         status = weather_ob.get_status()  # haalt weer op e.g. rain, sun, cloudy
         text_date = datetime.strftime(weather_ob.get_reference_time(timeformat='date'), "%a %e %b om %H:%M:%S")
 
@@ -62,7 +66,7 @@ class Manual(tk.Frame):
         self.weatherLabel.configure(font=self.tahoma)
         self.weatherLabel.configure(foreground="#000000")
         self.weatherLabel.configure(text=status + "\t\t\tLuchtvochtigheid: " + str(humidity) + "%\nTemperatuur: " + str(
-            temp['temp']) + "°C\tWindsnelheid: " + str(wind['speed']) + "km/u")
+            temp['temp']) + "°C\tWindsnelheid: " + str(wind['speed']) + "km/u" + "\n Waterhoogte: " + str(waterHoogte))
         self.weatherLabel.configure(width=284)
 
 
