@@ -1,5 +1,4 @@
 import Adafruit_DHT
- #stolen code
 
 humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, 4)
 

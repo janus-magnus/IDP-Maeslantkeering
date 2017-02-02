@@ -1,8 +1,8 @@
 import Adafruit_DHT
 import RPi.GPIO as GPIO
 
- GPIO.setmode(GPIO.BOARD)
- GPIO.setup(36, GPIO.IN)# touch sensor input
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(36, GPIO.IN)# touch sensor input
 humidity = 0
 temperature = 0
 
