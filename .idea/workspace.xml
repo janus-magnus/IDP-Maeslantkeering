@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ce7a63-f163-4c9c-b330-7d314b4bbb67" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Maeslantkeering-Interface/Network.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maeslantkeering-Interface/Home.py" afterPath="$PROJECT_DIR$/Maeslantkeering-Interface/Home.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" afterPath="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" />
     </list>
     <ignored path="IDP-Maeslantkeering.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +51,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Home.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -77,8 +78,8 @@
       <file leaf-file-name="sensor_controler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sensor_controler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -86,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manual.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Manual.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+            <state relative-caret-position="357">
+              <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -183,12 +184,12 @@
         <option value="$PROJECT_DIR$/Maeslantkeering-Interface/ErrorPass.py" />
         <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Pass.py" />
         <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Maeslantkeering.py" />
-        <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" />
         <option value="$PROJECT_DIR$/API_Controler.py" />
         <option value="$PROJECT_DIR$/sensor_test_set/emailNotification.py" />
         <option value="$PROJECT_DIR$/monitor_system.py" />
         <option value="$PROJECT_DIR$/sensor_controler.py" />
         <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Home.py" />
+        <option value="$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py" />
       </list>
     </option>
   </component>
@@ -893,16 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="34" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Maeslantkeering.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -921,16 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sensor_controler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -943,6 +924,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensor_controler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maeslantkeering-Interface/Manual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
