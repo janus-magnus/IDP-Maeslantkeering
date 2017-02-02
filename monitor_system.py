@@ -14,12 +14,12 @@ windSpeedTresholdR = 30
 
 def define_threat_level():
     threatCount = 0
-    if sc.get_touch()==1:
-        threatCount+=2
+    if sc.get_touch() == 1:
+        threatCount += 2
     if sc.get_humidity() >= humTresholdO:
-        threatCount+=1
+        threatCount += 1
     if sc.get_humidity() >= humTresholdR:
-        threatCount+=1
+        threatCount += 1
     if sc.get_temp() <= tempTresholdO:
         threatCount += 1
     if sc.get_temp() <= tempTresholdR:
@@ -32,9 +32,9 @@ def define_threat_level():
 
 def get_threat_level():
     tl = ''
-    if define_threat_level()>=4:
+    if define_threat_level() >= 4:
         tl = 'Oranje'
-    if define_threat_level()>=6:
+    if define_threat_level() >= 6:
         tl = 'Rood'
     else:
         tl = 'Groen'
